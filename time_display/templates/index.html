@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Time Display{% endblock %}
+
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        <h2 class="card-title text-center">Fecha y hora actual:</h2>
+    </div>
+    <div class="card-body ">
+        <h1 class="text-card text-center">{{timelocal}}</h1>
+        <h1 class="text-card text-center" id="reloj"></h1>
+    </div>
+</div>
+
+{% endblock %}
